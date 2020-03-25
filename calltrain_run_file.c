@@ -54,7 +54,12 @@ void alarm_handler(int foo)
 #define MIN(_x,_y) ((_x) < (_y)) ? (_x) : (_y)
 #endif
 int main()
-{/*
+	
+{
+	// to run this snipet below :
+	//1.uncoment it
+	//2. you should also have installed figlet and lolcat in your linux.
+	/*
 	printf("-----------------------------------------------------------------------------------------------------------------------------------------------------\n");
 	printf("-----------------------------------------------------------------------------------------------------------------------------------------------------\n");
 	char *command = "figlet -f Train  -w 200 Indian rail |lolcat ";
